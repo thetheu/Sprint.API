@@ -1,0 +1,433 @@
+{
+	"info": {
+		"_postman_id": "dfa6b405-ba64-47da-84ad-c4ae3e93b07b",
+		"name": "Senai.Ekpis.WebApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Usuarios",
+			"item": [
+				{
+					"name": "Usuarios.Login",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGF2ZSI6IjAxMjM0NTY3ODkiLCJlbWFpbCI6ImNvbXVtQGVtYWlsLmNvbSIsImp0aSI6IjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJDT01VTSIsImV4cCI6MTU2NjkzNzk5MiwiaXNzIjoiT3B0dXMuV2ViQXBpIiwiYXVkIjoiT3B0dXMuV2ViQXBpIn0.AIjgkWWBxCkerZjdQEk9Uo63vak7u_5bYSkZwQXXsHc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\" : \"elisete@.com\"\n\t,\"senha\" : \"1234\"\n}\n"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Cargos",
+			"item": [
+				{
+					"name": "Cargos.Listar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGF2ZSI6IjAxMjM0NTY3ODkiLCJlbWFpbCI6ImVsaXNldGVALmNvbSIsImp0aSI6IjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJDT01VTSIsImV4cCI6MTU2NzAxODAwMCwiaXNzIjoiRWtwaXMuV2ViQXBpIiwiYXVkIjoiRWtwaXMuV2ViQXBpIn0.uI2WXadC4RmDNowfve73YVLChqXXwFXWzz4rsGpHxP0",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/cargos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"cargos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cargos.BuscarPorId",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGF2ZSI6IjAxMjM0NTY3ODkiLCJlbWFpbCI6ImVsaXNldGVALmNvbSIsImp0aSI6IjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJDT01VTSIsImV4cCI6MTU2NzAxODAwMCwiaXNzIjoiRWtwaXMuV2ViQXBpIiwiYXVkIjoiRWtwaXMuV2ViQXBpIn0.uI2WXadC4RmDNowfve73YVLChqXXwFXWzz4rsGpHxP0",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/cargos/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"cargos",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cargos.Cadastrar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGF2ZSI6IjAxMjM0NTY3ODkiLCJlbWFpbCI6ImVsaXNldGVALmNvbSIsImp0aSI6IjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJDT01VTSIsImV4cCI6MTU2NzAxODAwMCwiaXNzIjoiRWtwaXMuV2ViQXBpIiwiYXVkIjoiRWtwaXMuV2ViQXBpIn0.uI2WXadC4RmDNowfve73YVLChqXXwFXWzz4rsGpHxP0",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nome\" : \"Administração\"\n\t,\"ativo\" : 1\n\t\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/cargos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"cargos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cargos.Atualizar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGF2ZSI6IjAxMjM0NTY3ODkiLCJlbWFpbCI6ImVsaXNldGVALmNvbSIsImp0aSI6IjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJDT01VTSIsImV4cCI6MTU2NzAxODAwMCwiaXNzIjoiRWtwaXMuV2ViQXBpIiwiYXVkIjoiRWtwaXMuV2ViQXBpIn0.uI2WXadC4RmDNowfve73YVLChqXXwFXWzz4rsGpHxP0",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"idCargo\" : 1\n\t,\"nome\" : \"Advogado\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/cargos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"cargos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Departamentos",
+			"item": [
+				{
+					"name": "Departamentos.Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/departamentos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"departamentos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Departamentos.BuscarPorId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/departamentos/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"departamentos",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Departamentos.Cadastrar",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nome\" : \"Recursos Humanos\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/departamentos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"departamentos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Funcionarios",
+			"item": [
+				{
+					"name": "Funcionarios.Listar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGF2ZSI6IjAxMjM0NTY3ODkiLCJlbWFpbCI6ImVsaXNldGVALmNvbSIsImp0aSI6IjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJDT01VTSIsImV4cCI6MTU2NzE4OTc3NywiaXNzIjoiRWtwaXMuV2ViQXBpIiwiYXVkIjoiRWtwaXMuV2ViQXBpIn0.ZAPXNln5eKLnMc02ZS3_Sb6ATe-EYvWjyb5h2klNPw8",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/funcionarios",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"funcionarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Funcionarios.BuscarPorId",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGF2ZSI6IjAxMjM0NTY3ODkiLCJlbWFpbCI6ImpvcmdlQC5jb20iLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQURPUiIsImV4cCI6MTU2NzAyNTQzNCwiaXNzIjoiRWtwaXMuV2ViQXBpIiwiYXVkIjoiRWtwaXMuV2ViQXBpIn0.ikM6lQ75qeGO11rv_HN5ky72JLZTSbTvqtt6yENovBU",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/funcionarios/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"funcionarios",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Funcionarios.Atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t  \n    \t \"idFuncionario\": 5,\n        \"nome\": \"Sheylão\",\n        \"cpf\": \"171.246.758-02\",\n        \"dataNascimento\": \"1974-07-04T00:00:00\",\n        \"salario\": 15.0000,\n        \"idDepartamento\": 1,\n        \"idCargo\": 1,\n        \"idUsuario\": 3\n    \n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/funcionarios",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"funcionarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Funcionarios.Deletar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/funcionarios/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"funcionarios",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Funcionarios.Cadastrar",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"nome\": \"Sheyla\",\n        \"cpf\": \"171.246.758-02\",\n        \"dataNascimento\": \"1974-07-04\",\n        \"salario\": 15.0000,\n        \"idDepartamento\": 1,\n        \"idCargo\": 1,\n        \"idUsuario\": 3\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/funcionarios",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"funcionarios"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
