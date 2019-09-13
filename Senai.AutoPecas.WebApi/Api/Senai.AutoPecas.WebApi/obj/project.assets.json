@@ -12288,11 +12288,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\44056839808\\Documents\\Sprint.2-Api\\Senai.AutoPecas.WebApi\\Api\\Senai.AutoPecas.WebApi\\Senai.AutoPecas.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\44056839808\\Documents\\Sprint.API\\Sprint.API\\Senai.AutoPecas.WebApi\\Api\\Senai.AutoPecas.WebApi\\Senai.AutoPecas.WebApi.csproj",
       "projectName": "Senai.AutoPecas.WebApi",
-      "projectPath": "C:\\Users\\44056839808\\Documents\\Sprint.2-Api\\Senai.AutoPecas.WebApi\\Api\\Senai.AutoPecas.WebApi\\Senai.AutoPecas.WebApi.csproj",
+      "projectPath": "C:\\Users\\44056839808\\Documents\\Sprint.API\\Sprint.API\\Senai.AutoPecas.WebApi\\Api\\Senai.AutoPecas.WebApi\\Senai.AutoPecas.WebApi.csproj",
       "packagesPath": "C:\\Users\\44056839808\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\44056839808\\Documents\\Sprint.2-Api\\Senai.AutoPecas.WebApi\\Api\\Senai.AutoPecas.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\44056839808\\Documents\\Sprint.API\\Sprint.API\\Senai.AutoPecas.WebApi\\Api\\Senai.AutoPecas.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

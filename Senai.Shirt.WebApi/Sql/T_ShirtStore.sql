@@ -1,0 +1,27 @@
+CREATE DATABASE T_ShirtStore
+
+USE T_ShirtStore
+
+CREATE TABLE Usuarios
+(
+	IdUsuarios		INT PRIMARY KEY IDENTITY
+	,Nome			VARCHAR(255) NOT NULL
+	,Email			VARCHAR(255) NOT NULL UNIQUE
+	,Senha			VARCHAR(255) NOT NULL
+	,IdPerfis		INT FOREIGN KEY REFERENCES Perfis(IdPerfis)
+);
+ 
+CREATE TABLE Perfis
+(
+	idPerfils
+);
+
+CREATE TABLE Empresas
+
+CREATE TABLE Camisetas
+
+CREATE TABLE Tamanhos
+
+CREATE TABLE Cores
+
+CREATE TABLE Estoque

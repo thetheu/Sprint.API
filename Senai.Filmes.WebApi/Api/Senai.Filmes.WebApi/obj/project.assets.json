@@ -12652,11 +12652,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\44056839808\\Documents\\Sprint.2-Api\\Senai.Filmes.WebApi\\Api\\Senai.Filmes.WebApi\\Senai.Filmes.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\44056839808\\Documents\\Sprint.API\\Sprint.API\\Senai.Filmes.WebApi\\Api\\Senai.Filmes.WebApi\\Senai.Filmes.WebApi.csproj",
       "projectName": "Senai.Filmes.WebApi",
-      "projectPath": "C:\\Users\\44056839808\\Documents\\Sprint.2-Api\\Senai.Filmes.WebApi\\Api\\Senai.Filmes.WebApi\\Senai.Filmes.WebApi.csproj",
+      "projectPath": "C:\\Users\\44056839808\\Documents\\Sprint.API\\Sprint.API\\Senai.Filmes.WebApi\\Api\\Senai.Filmes.WebApi\\Senai.Filmes.WebApi.csproj",
       "packagesPath": "C:\\Users\\44056839808\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\44056839808\\Documents\\Sprint.2-Api\\Senai.Filmes.WebApi\\Api\\Senai.Filmes.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\44056839808\\Documents\\Sprint.API\\Sprint.API\\Senai.Filmes.WebApi\\Api\\Senai.Filmes.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
