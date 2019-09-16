@@ -12286,11 +12286,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\44056839808\\Documents\\Sprint.2-Api\\Senai.Ekpis.WebApi\\Api\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\44056839808\\Documents\\Sprint.API\\Sprint.API\\Senai.Ekpis.WebApi\\Api\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi.csproj",
       "projectName": "Senai.Ekpis.WebApi",
-      "projectPath": "C:\\Users\\44056839808\\Documents\\Sprint.2-Api\\Senai.Ekpis.WebApi\\Api\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi.csproj",
+      "projectPath": "C:\\Users\\44056839808\\Documents\\Sprint.API\\Sprint.API\\Senai.Ekpis.WebApi\\Api\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi.csproj",
       "packagesPath": "C:\\Users\\44056839808\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\44056839808\\Documents\\Sprint.2-Api\\Senai.Ekpis.WebApi\\Api\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\44056839808\\Documents\\Sprint.API\\Sprint.API\\Senai.Ekpis.WebApi\\Api\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
