@@ -42,6 +42,7 @@ namespace Senai.AutoPecas.WebApi.Repositories
             }
         }
 
+
         public void Deletar(int id)
         {
             using (AutoPecasContext ctx = new AutoPecasContext())
@@ -51,6 +52,7 @@ namespace Senai.AutoPecas.WebApi.Repositories
                 ctx.SaveChanges();
             }
         }
+
 
         public void Atualizar(Pecas peca)
         {

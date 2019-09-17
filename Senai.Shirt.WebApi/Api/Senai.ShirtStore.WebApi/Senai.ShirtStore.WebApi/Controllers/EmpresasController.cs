@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Senai.ShirtStore.WebApi.Domains;
@@ -41,7 +42,7 @@ namespace Senai.ShirtStore.WebApi.Controllers
         }
 
 
-
+        
         [HttpPost]
         public IActionResult Cadastrar(Empresas Empresas)
         {
@@ -78,7 +79,6 @@ namespace Senai.ShirtStore.WebApi.Controllers
 
             }
         }
-
 
 
         [HttpDelete("{id}")]

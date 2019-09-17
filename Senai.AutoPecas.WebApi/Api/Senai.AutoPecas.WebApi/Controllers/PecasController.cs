@@ -73,7 +73,7 @@ namespace Senai.AutoPecas.WebApi.Controllers
                 PecasRepository.Atualizar(pecas);
                 return Ok();
             }
-            catch (Exception ex)
+            catch (Exception ex)        
             {
                 return BadRequest(new { Mensagem = "Erro ao Atualizar" });
             }

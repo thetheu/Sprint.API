@@ -77,6 +77,7 @@ insert into Estoques (Unidades, IdCamiseta, IdTamanho, IdCores) values ('5', '1'
 																	   
 
 select * from Usuarios
+
 select * from Perfis
 select * from Empresas
 select * from Camisetas

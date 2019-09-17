@@ -77,7 +77,7 @@ namespace Senai.ShirtStore.WebApi.Controllers
         }
 
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult Deletar(int id)
         {
             UsuarioRepository.Deletar(id);
